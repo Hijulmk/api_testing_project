@@ -1,3 +1,4 @@
+import 'package:api_testing_project/views/users_list_screen.dart';
 import 'package:api_testing_project/views/users_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const UserScreen(),
+      home: const UsersScreen(),
     );
   }
 }
